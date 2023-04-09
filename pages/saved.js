@@ -1,4 +1,4 @@
-import Layout from '../components/Layout';
+import Layout from '@components/Layout';
 import PostCard from '@components/PostCard';
 
 export default function SavedPostsPage() {
