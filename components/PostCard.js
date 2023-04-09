@@ -53,7 +53,7 @@ export default function PostCard() {
 					<ClickOutHandler onClickOut={handleClickOutsideDropdown}>
 						<div className="relative">
 							{dropdownOpen && (
-								<div className="absolute -right-6 bg-white shadow-md shadow-gray-300 p-3 rounded-sm border border-gray-100 w-52">
+								<div className="dark:bg-slate-800 dark: shadow-gray-800 dark:border-slate-700 absolute -right-6 bg-white shadow-md shadow-gray-300 p-3 rounded-sm border border-gray-100 w-52">
 									<a
 										href=""
 										className="flex gap-3 py-2 my-2 hover:bg-socialBlue hover:text-white -mx-4 px-4 rounded-md transition-all hover:scale-110 hover:shadow-md shadow-gray-300">
